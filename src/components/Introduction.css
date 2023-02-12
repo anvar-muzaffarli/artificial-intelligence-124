@@ -1,0 +1,41 @@
+.menim-narinci-butonum {
+    background-color: yellowgreen;
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+    border-radius: 15px;
+}
+
+.introduction {
+    padding-left: 250px;
+}
+
+
+@media(max-width:1515px) {
+    .introduction {
+        padding: 20px 150px;
+    }
+}
+
+@media(max-width:1050px) {
+    .introduction {
+        padding: 20px;
+    }
+}
+
+.introduction .left-side {
+    padding-top: 160px;
+}
+
+.introduction .left-side p {
+    margin: 40px 0;
+    color:white;
+}
+
+
+.introduction .left-side h6 {
+   
+    color: #3A68B8;
+    text-transform: uppercase;
+
+}

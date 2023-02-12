@@ -65,3 +65,25 @@ text-decoration: none;
     color:#fff;
     transform: translateX(70px);
 }
+
+.ucbucaq {
+    width: 16px;
+}
+
+
+.navbar {
+    padding: 20px 250px;
+}
+
+@media(max-width:1515px) {
+    .navbar {
+        padding: 20px 150px;
+    }
+}
+
+@media(max-width:1050px) {
+    .navbar {
+        padding: 20px;
+    }
+}
+

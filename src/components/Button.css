@@ -1,0 +1,17 @@
+.my-custom-btn {
+    /* #3A68B8 */
+
+background: #3A68B8;
+border-radius: 5px;
+padding: 15px;
+color:white;
+text-decoration: none;
+margin-right: 14px;
+}
+
+.my-custom-btn:hover {
+    color:white;
+text-decoration: none;
+cursor: pointer;
+
+}

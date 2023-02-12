@@ -4,6 +4,9 @@ import './Navbar.css'
 import Button from './Button'
 import {AiOutlineBars} from 'react-icons/ai'
 import {GiCrossedSwords} from 'react-icons/gi'
+
+import { Link } from 'react-router-dom'
+
 function Navbar() {
     // JSX elementleri icerisinde deyishen {} icerisinde yazilir
   const overlayMenuUnvaniRef = useRef()
@@ -52,18 +55,18 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Home</a>
+          <Link className="nav-link" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">About</a>
         </li>
 
         <li className="nav-item">
-        <a className="nav-link" href="#">Services</a>
+        <Link className="nav-link" to="xidmetlerimiz">Services</Link>
       </li>
 
       <li className="nav-item">
-      <a className="nav-link" href="#">Blog</a>
+      <Link className="nav-link" to="bloglar">Blog</Link>
     </li>
 
     <li className="nav-item">
@@ -74,7 +77,7 @@ function Navbar() {
      
        
       </ul>
-   <Button />
+   <Button butonunIcindekiYazi="Sign Up" className="btn btn-danger" />
     </div>
   </div>
 </nav>
